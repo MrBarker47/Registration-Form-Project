@@ -139,12 +139,49 @@ span {
 
 
 @media (min-width: 760px) {
+.label1 {
+  margin: auto;
+}
+ 
   form {
     display: inline;
   }
-  label {
-    float: left ;
+    .contact label {
+      display: flex;
+    }
+    .line3 {
+      border-top: 2px solid black;
+      margin: 25px;
+      padding-top: 15px;
+    }
+    legend {
+      margin: 7px;
+    }
     
-  }
+    button {
+      background-color: #57decc;
+      color: white;
+      padding: 19px 39px 18px 39px;
+      text-align: center;
+      width: 900px;
+      font-size: 15px;
+      font-style: normal;
+      border-width: 1px 1px 3px;
+      margin-bottom: 10px;
+      border: none;
+    }
+    button,
+    textarea {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
 
+    }
+    textarea {
+      width: 900px;
+    }
+    .topics {
+      padding-left: 20px;
+    }
 }
