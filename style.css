@@ -104,8 +104,7 @@ select {
   border: none;
 }
 
-select:focus {
-}
+
 
 input[type="text"],
 input[type="password"],
@@ -136,4 +135,16 @@ input[type="search"] {
 
 span {
   padding-left: 30px;
+}
+
+
+@media (min-width: 760px) {
+  form {
+    display: inline;
+  }
+  label {
+    float: left ;
+    
+  }
+
 }
