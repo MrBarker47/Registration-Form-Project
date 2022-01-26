@@ -308,4 +308,12 @@ span {
     font-size: 20px;
     border-radius: 5px;
   }
+  span {
+    color: black;
+    padding: 210px;
+    /* width: 80%; */
+    font-size: 15px;
+
+    border: none;
+  }
 }
