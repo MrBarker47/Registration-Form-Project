@@ -205,4 +205,24 @@ span {
     .container::placeholder {
         width: 4px;
     }
+      button {
+        background-color: #57decc;
+        color: white;
+        padding: 19px 39px 18px 39px;
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+        font-style: normal;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border: none;
+      }
+      textarea {
+  border: none;
+  background-color: #e8e8e8;
+  padding: 15px;
+  text-align: end;
+  font-size: 20px;
+  border-radius: 5px;
+      }
 }
