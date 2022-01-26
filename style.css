@@ -43,7 +43,7 @@ p {
 
 .line {
   border-top: 7px solid black;
-  margin: 25px;
+  margin: 15px;
 }
 
 .line2 {
@@ -53,7 +53,7 @@ p {
 
 .line3 {
   border-top: 2px solid black;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 form {
@@ -103,9 +103,6 @@ select {
   border: none;
 }
 
-select:focus {
-}
-
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -137,9 +134,89 @@ span {
   padding-left: 30px;
 }
 
-/* ==== media queries ===== */
-@media (min-width: 768px) {
-  fieldset {
-    display: flexbox;
+@media (min-width: 760px) {
+  form {
+    max-width: 600px;
+    margin: 10px auto;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-container label {
+    flex-basis: 25%;
+  }
+
+  .flex-container input,
+  .flex-container select {
+    flex-basis: 75%;
+    margin: 7px;
+  }
+
+  legend {
+    margin: 7px;
+  }
+
+  .line {
+    border-top: 7px solid black;
+    margin: 2px;
+    padding-bottom: 0px;
+  }
+
+  .line2 {
+    border-bottom: 2px solid black;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  button {
+    background-color: #57decc;
+    color: white;
+    padding: 19px 39px 18px 39px;
+    text-align: center;
+    width: 900px;
+    font-size: 15px;
+    font-style: normal;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  button,
+  textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  textarea {
+    width: 900px;
+  }
+  .topics {
+    padding-left: 20px;
+  }
+  .container::placeholder {
+    width: 4px;
+  }
+  button {
+    background-color: #57decc;
+    color: white;
+    padding: 19px 39px 18px 39px;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    font-style: normal;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  textarea {
+    border: none;
+    background-color: #e8e8e8;
+    padding: 15px;
+    text-align: end;
+    font-size: 20px;
+    border-radius: 5px;
   }
 }
