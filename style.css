@@ -197,7 +197,7 @@ span {
     width: 900px;
   }
   .topics {
-    padding-left: 20px;
+    padding-left: 30px;
   }
   .container::placeholder {
     width: 4px;
@@ -311,9 +311,30 @@ span {
   span {
     color: black;
     padding: 210px;
-    /* width: 80%; */
-    font-size: 15px;
 
+    font-size: 15px;
     border: none;
+  }
+
+  label {
+    margin: 20px;
+    font-size: 1rem;
+  }
+
+  legend {
+    margin-left: 30px;
+    font-weight: bold;
+  }
+
+  .legend {
+    padding-top: 25px;
+  }
+  .topics {
+    padding-left: 35px;
+    font-weight: normal;
+  }
+
+  .Newsletter {
+    font-weight: normal;
   }
 }
