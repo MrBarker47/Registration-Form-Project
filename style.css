@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Courgette", cursive;
 }
 
 html,
@@ -121,7 +122,7 @@ select:focus {
 }
 /* 
 textarea {
-  margin: 10px auto;
+  width: 50px;
 } */
 
 input[type="text"],
@@ -136,7 +137,6 @@ input[type="search"] {
   width: 100%;
   text-align: end;
   font-style: normal;
-  border-radius: 1px solid #57decc;
   border-width: 1px 1px;
   margin-bottom: 10px;
 }
