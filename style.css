@@ -41,6 +41,9 @@ p {
 
 /* ===== Form ===== */
 
+.contact {
+  background-color: #a99cff;
+}
 .line {
   border-top: 7px solid black;
   margin: 15px;
@@ -222,6 +225,9 @@ span {
     font-size: 20px;
     border-radius: 5px;
   }
+  .zip {
+    width: 1px;
+  }
 }
 @media (min-width: 760px) {
   form {
@@ -301,12 +307,9 @@ span {
     border: none;
   }
   textarea {
-    border: none;
     background-color: #e8e8e8;
     padding: 15px;
-    text-align: end;
     font-size: 20px;
-    border-radius: 5px;
   }
   span {
     color: black;
@@ -336,5 +339,8 @@ span {
 
   .Newsletter {
     font-weight: normal;
+  }
+  .contact {
+    background-color: #a99cff;
   }
 }
