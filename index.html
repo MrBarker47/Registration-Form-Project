@@ -24,7 +24,7 @@
 
               <div class="flex-container">
               <label for="full name">Full Name</label>
-               <input  id="text" type="text" namew="user_name" placeholder="Required"> 
+               <input  id="text" type="text" name="user_name" placeholder="Required"> 
               </div>
 
                 <div class="flex-container">
@@ -105,16 +105,16 @@
             </select>
             </div>
 
-          <div class="flex-container" class="container">
+          <div class="flex-container">
         <label for="zip code">Zip Code</label>
-        <input type="text" id="text" placeholder="">
+        <input type="text" id="text" placeholder="" class="zip">
         </div>
     </fieldset>
 
     <div class="line3"></div>
-    <legend>Newsletter</legend>
-      <fieldset>
-     <h5>Select the newsletter you would like to receive</h5>
+    <legend class="legend">Newsletter</legend>
+      <fieldset class="background">
+     <h5 class="Newsletter">Select the newsletter you would like to receive</h5>
       <input type="checkbox" id="htmlnews" name="news"> 
       <label for="htmlnews"> HTML News</label> <br />
       
@@ -124,7 +124,7 @@
       <input type="checkbox" name="javascriptnews" id="news">
       <label for="javascriptnews">JavaScript News</label>
    
-      <h5>Newsletter format</h5>
+      <h5 class="Newsletter">Newsletter format</h5>
       <input type="radio" id="html" name="text">
       <label for="html">HTML</label><br />
       
@@ -132,13 +132,11 @@
       <label for="radio">Plain text</label>
         </fieldset>
         <h5 class="topics">Other topics you'd like to hear about</h5>
-        <textarea></textarea>
+        <textarea rows="4" cols="30"></textarea>
 
         <button>Sign Up</button>
 
         <span>Copyright The Code Review</span>
-</form>
-
-</body>
+      </form>
+  </body>
 </html>
-
