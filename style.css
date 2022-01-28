@@ -51,12 +51,9 @@ p {
 
 .line2 {
   border-bottom: 2px solid black;
-  margin: 40px;
+  margin: 20px;
 }
-.line2 {
-  border-bottom: 2px solid black;
-  margin: 25px;
-}
+
 .line3 {
   border-top: 2px solid black;
   padding-top: 5px;
@@ -342,5 +339,14 @@ span {
   }
   .contact {
     background-color: #a99cff;
+  }
+  .line {
+    border-top: 7px solid black;
+    margin: 10px 10px;
+  }
+
+  .line2 {
+    border-bottom: 2px solid black;
+    margin: 1px;
   }
 }
