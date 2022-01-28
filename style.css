@@ -253,13 +253,13 @@ span {
 
   .line {
     border-top: 7px solid black;
-    margin: 2px;
-    padding-bottom: 0px;
+    margin: 25px 375px;
+    padding: 2px;
   }
 
   .line2 {
     border-bottom: 2px solid black;
-    margin: 5px;
+    margin: 25px 375px;
     padding: 2px;
   }
 
@@ -339,15 +339,5 @@ span {
   }
   .contact {
     background-color: #a99cff;
-  }
-
-  .line {
-    border-top: 7px solid black;
-    margin: 10px 10px;
-  }
-
-  .line2 {
-    border-bottom: 2px solid black;
-    margin: 1px;
   }
 }
