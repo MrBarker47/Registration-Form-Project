@@ -340,6 +340,7 @@ span {
   .contact {
     background-color: #a99cff;
   }
+
   .line {
     border-top: 7px solid black;
     margin: 10px 10px;
@@ -349,4 +350,10 @@ span {
     border-bottom: 2px solid black;
     margin: 1px;
   }
+
+
 }
+
+
+}
+
