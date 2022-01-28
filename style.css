@@ -46,12 +46,13 @@ p {
 }
 .line {
   border-top: 7px solid black;
-  margin: 30px;
+  margin: 30px 70px;
 }
 
 .line2 {
   border-bottom: 2px solid black;
-  margin: 20px;
+  margin: 30px 70px;
+  padding-top: 5px;
 }
 
 .line3 {
@@ -106,6 +107,10 @@ select {
   border: none;
 }
 
+select:focus {
+  background-color: wheat;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -136,6 +141,27 @@ input[type="search"] {
 span {
   padding-left: 30px;
 }
+#text:focus {
+  background-color: wheat;
+  color: black;
+}
+
+textarea:focus {
+  background-color: wheat;
+}
+legend {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.topics {
+  padding-left: 35px;
+  font-weight: normal;
+}
+
+.Newsletter {
+  font-weight: normal;
+}
 
 @media (min-width: 760px) {
   form {
@@ -164,13 +190,13 @@ span {
 
   .line {
     border-top: 7px solid black;
-    margin: 25px 375px;
+    margin: 25px 395px;
     padding: 2px;
   }
 
   .line2 {
     border-bottom: 2px solid black;
-    margin: 25px 375px;
+    margin: 25px 395px;
     padding: 2px;
   }
 
