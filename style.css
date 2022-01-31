@@ -136,8 +136,23 @@ input[type="search"] {
   margin-bottom: 10px;
 }
 
-input[type="number"] {
+#name:focus,
+#email:focus,
+#number:focus,
+#address:focus,
+#City:focus,
+#zip:focus {
+  background-color: wheat;
+  color: black;
+}
+
+input[type="tel"] {
   width: 50%;
+  margin-right: 45px;
+}
+
+#zip {
+  margin: 25px;
 }
 
 #html {
@@ -152,10 +167,6 @@ input[type="number"] {
 
 span {
   padding-left: 30px;
-}
-#text:focus {
-  background-color: wheat;
-  color: black;
 }
 
 textarea:focus {
@@ -175,6 +186,10 @@ textarea:focus {
   form {
     max-width: 600px;
     margin: 10px auto;
+  }
+
+  input[type="number"] {
+    width: 25%;
   }
 
   .flex-container {
