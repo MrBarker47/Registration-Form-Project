@@ -120,17 +120,12 @@ select {
 select:focus {
   background-color: wheat;
 }
-/* 
-textarea {
-  width: 50px;
-} */
 
 input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
 input[type="email"],
-input[type="number"],
 input[type="search"] {
   color: white;
   padding: 15px;
@@ -139,6 +134,10 @@ input[type="search"] {
   font-style: normal;
   border-width: 1px 1px;
   margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 50%;
 }
 
 #html {
