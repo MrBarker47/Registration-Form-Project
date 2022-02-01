@@ -211,16 +211,19 @@ textarea:focus {
 
   .line {
     border-top: 7px solid black;
-    margin: 25px 850px;
+    margin: 25px 950px;
     padding: 2px;
   }
 
   .line2 {
     border-bottom: 2px solid black;
-    margin: 25px 850px;
+    margin: 25px 950px;
     padding: 2px;
   }
-
+   
+  .line3 {
+    margin: 5px 15px;
+  }
 
 
   button {
