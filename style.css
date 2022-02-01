@@ -186,8 +186,9 @@ textarea:focus {
     margin: 10px auto;
   }
 
-  #zip::placeholder {
-    width: 15%;
+  input[type="tel"] {
+    width: 25%;
+
   }
 
   .flex-container {
