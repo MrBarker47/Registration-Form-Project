@@ -91,6 +91,10 @@ fieldset {
   border: none;
 }
 
+input[type="radio"] {
+  margin: 3.1%;
+}
+
 button {
   background-color: #57decc;
   color: white;
@@ -148,7 +152,17 @@ input[type="search"] {
 
 input[type="tel"] {
   width: 50%;
-  margin: 15px 25px;
+  margin: 5px 105px 0px 0px;
+}
+
+#number {
+  color: white;
+  padding: 15px;
+  width: 100%;
+  text-align: end;
+  font-style: normal;
+  border-width: 1px 1px;
+  margin-bottom: 10px;
 }
 
 #html {
@@ -186,11 +200,15 @@ textarea:focus {
     margin: 10px auto;
   }
 
-  input[type="tel"] {
-    width: 25%;
+input[type="radio"] {
+  margin: 7px;
+}
 
-  }
-
+ 
+  #zip {
+    margin: 5px 215px 0px 80px;
+    }
+     
   .flex-container {
     display: flex;
     align-items: center;
