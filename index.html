@@ -29,12 +29,12 @@
 
               <div class="flex-container">
               <label for="name">Full Name</label>
-               <input  type="text" id="name"  name="user_name" placeholder="Required" required="required"> 
+               <input  type="text" id="name"  name="user_name" placeholder="Required" required> 
               </div>
 
                 <div class="flex-container">
                <label for="email">Email Address</label>
-               <input type="text" id="email" name="user_email" placeholder="Required" required="required">
+               <input type="email" id="email" name="user_email" placeholder="Required" required>
                </div>
 
                <div class="flex-container">            
@@ -136,12 +136,16 @@
       <label for="html">HTML</label><br />
       
       <input type="radio" id="radio" name="text">
-      <label for="radio">Plain text</label>
-        </fieldset>
-        <h5 class="topics">Other topics you'd like to hear about</h5>
-        <textarea></textarea>
+      <label for="radio">Plain text</label> <br />
 
-        <button>Sign Up</button>
+        <br />
+       <label class="topics" for="textarea">Other topics you'd like to hear about</label> 
+      <textarea type="text" name="textarea"></textarea>
+      <button type="submit">Sign Up</button>
+        </fieldset>
+        
+       
+      
 
         <span>Copyright The Code Review</span>
       </form>
