@@ -77,6 +77,8 @@ form {
   font-size: 20px;
   padding-top: 2px;
 }
+
+
 input,
 textarea {
   border: none;
@@ -89,6 +91,8 @@ textarea {
 
 textarea {
 width: 100%;
+margin-top: 20px;
+
 }
 
 fieldset {
@@ -97,7 +101,7 @@ fieldset {
 }
 
 input[type="radio"] {
-  margin: 3.1%;
+  margin: 2.4%;
 }
 
 button {
@@ -111,7 +115,7 @@ button {
   border-width: 1px 1px 3px;
   margin-bottom: 10px;
   border: none;
-  transition: background-color 0.4s ease-out;
+ 
 
 }
 
@@ -160,7 +164,7 @@ input[type="search"] {
 
 input[type="tel"] {
   width: 50%;
-  margin: 5px 105px 0px 0px;
+  margin: 5px 125px 0px 0px;
 }
 
 #number {
@@ -184,7 +188,9 @@ input[type="tel"] {
 }
 
 span {
-  padding-left: 60px;
+  padding-left: 80px;
+  margin-top: 200px;
+  white-space: nowrap;
 }
 
 textarea:focus {
@@ -194,6 +200,11 @@ textarea:focus {
 
 .Newsletter {
   font-weight: normal;
+}
+
+.topics {
+  white-space: nowrap;
+ 
 }
 
  /* ====== Media Querys ====== */
@@ -208,10 +219,15 @@ input[type="radio"] {
   margin: 7px;
 }
 
-  #zip {
-    margin: 5px 215px 0px 80px;
+.flex-container {
+  white-space: nowrap;
+}
+
+ #zip  {
+  margin: 5px 215px 0px 65px;
+  
     }
-     
+      
   .flex-container {
     display: flex;
     align-items: center;
@@ -266,8 +282,8 @@ input[type="radio"] {
   }
   span {
     color: black;
+    margin: 20px;
     padding: 210px;
-
     font-size: 15px;
     border: none;
   }
@@ -286,7 +302,7 @@ input[type="radio"] {
     color: white;
     padding: 19px 39px 18px 39px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     font-size: 15px;
     font-style: normal;
     border-width: 1px 1px 3px;
@@ -301,9 +317,8 @@ input[type="radio"] {
     margin-left: 1px;
   }
   .topics {
-  
-  
-    font-weight: normal;
+  font-weight: normal;
+  margin-left: 1px;
   }
 
   .Newsletter {
