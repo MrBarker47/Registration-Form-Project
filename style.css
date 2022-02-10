@@ -47,8 +47,7 @@ legend {
 }
 
 .background button {
-  transition-property: width;
-  transition-duration: 200ms;
+  transition-property: width 2s;
 
 }
 button:hover {
@@ -247,10 +246,6 @@ textarea:focus {
 
   }
 
-  fieldset button {
-  
-  }
-
 
   .background {
     margin: 25px;
@@ -295,8 +290,8 @@ textarea:focus {
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
     border: none;
+   
   }
-  
 
    .line {
     border-top: 7px solid black;
