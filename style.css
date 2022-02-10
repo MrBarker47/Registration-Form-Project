@@ -1,13 +1,11 @@
-* {
+body, 
+html {
   box-sizing: border-box;
-  font-family: "Courgette", cursive;
+  margin: 0px;
+  padding: 0px;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 /* ========= Header ======== */
 
@@ -45,16 +43,36 @@ p {
 legend {
   margin-right: 25px;
   font-weight: bold;
+  box-sizing: border-box;
+}
+
+.background button {
+  transition-property: width;
+  transition-duration: 200ms;
+
+}
+button:hover {
+  background-color: #a99cff;
 }
 
 .info {
   padding-bottom: 50px;
   margin-left: 1px;
+  box-sizing: border-box;
 }
 
 .contact {
   background-color: #a99cff;
+  border: none;
 }
+
+.background {
+  margin: 0px;
+  padding: 0px; 
+  border: none;
+}
+
+
 .line {
   border-top: 7px solid black;
   margin: 30px 70px;
@@ -68,7 +86,8 @@ legend {
 
 .line3 {
   border-top: 2px solid black;
-  padding-top: 5px;
+  padding-bottom: 15px;
+  
 }
 
 form {
@@ -76,6 +95,7 @@ form {
   margin: 10px auto;
   font-size: 20px;
   padding-top: 2px;
+  box-sizing: border-box; 
 }
 
 
@@ -87,21 +107,26 @@ textarea {
   text-align: end;
   font-size: 20px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
-textarea {
+
+
+  textarea {
 width: 100%;
 margin-top: 20px;
+box-sizing: border-box;
+
+}  
+
+
+input[type="radio"] {
+  margin: 2.4%;
 
 }
 
 fieldset {
-  margin: 20px;
-  border: none;
-}
-
-input[type="radio"] {
-  margin: 2.4%;
+  margin: 25px;
 }
 
 button {
@@ -115,6 +140,7 @@ button {
   border-width: 1px 1px 3px;
   margin-bottom: 10px;
   border: none;
+
  
 
 }
@@ -150,6 +176,7 @@ input[type="search"] {
   font-style: normal;
   border-width: 1px 1px;
   margin-bottom: 10px;
+
 }
 
 #name:focus,
@@ -188,13 +215,16 @@ input[type="tel"] {
 }
 
 span {
-  padding-left: 80px;
+  padding: 45px;
   margin-top: 200px;
   white-space: nowrap;
+  font-size: 1rem;
+
 }
 
 textarea:focus {
   background-color: wheat;
+
   
 }
 
@@ -204,8 +234,9 @@ textarea:focus {
 
 .topics {
   white-space: nowrap;
- 
+ box-sizing: border-box;
 }
+
 
  /* ====== Media Querys ====== */
 
@@ -213,66 +244,22 @@ textarea:focus {
   form {
     max-width: 600px;
     margin: 10px auto;
+
   }
 
-input[type="radio"] {
-  margin: 7px;
-}
-
-.flex-container {
-  white-space: nowrap;
-}
-
- #zip  {
-  margin: 5px 215px 0px 65px;
-  
-    }
-      
-  .flex-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .flex-container label {
-    flex-basis: 25%;
-  }
-
-  .flex-container input,
-  .flex-container select {
-    flex-basis: 75%;
-    margin: 7px;
-  }
-
-  
-  .line {
-    border-top: 7px solid black;
-    margin: 25px 950px;
-    padding: 2px;
-  }
-
-  .line2 {
-    border-bottom: 2px solid black;
-    margin: 25px 950px;
-    padding: 2px;
-  }
-   
-  .line3 {
-    margin: 45px 15px;
+  fieldset button {
   
   }
 
 
-  button,
-  textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    width: 100%;
+  .background {
+    margin: 25px;
+
   }
 
-  .container::placeholder {
-    width: 4px;
+
+  #contact {
+    padding-left: 2px;
   }
 
   textarea {
@@ -308,13 +295,70 @@ input[type="radio"] {
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
     border: none;
-  
-   
   }
+  
+
+   .line {
+    border-top: 7px solid black;
+    margin: 15px 1px 10px 185px; 
+   width: 80%;
+  }
+  
+  .line2 {
+    border-bottom: 2px solid black;
+     margin: 15px 1px 0px 185px; 
+    width: 80%;
+  }
+
+
+input[type="radio"] {
+  margin: 7px;
+}
+
+.flex-container {
+  white-space: nowrap;
+}
+
+ #zip  {
+  margin: 5px 215px 0px 65px;
+  
+    }
+      
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-container label {
+    flex-basis: 25%;
+  }
+
+  .flex-container input,
+  .flex-container select {
+    flex-basis: 75%;
+    margin: 7px;
+  }
+
+  button,
+  textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 100%;
+ 
+  }
+
+
+
+  .container::placeholder {
+    width: 4px;
+  }
+
+
     .legend {
     padding-top: 25px;
-   
-    margin-left: 1px;
+   margin-left: 1px;
   }
   .topics {
   font-weight: normal;
