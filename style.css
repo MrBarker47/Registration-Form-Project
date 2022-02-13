@@ -301,15 +301,15 @@ textarea:focus {
 
    .line {
     border-top: 7px solid black;
-     margin: 5px 1px 0px 985px;
-    width: 25%;
+     margin: 5px 1px 0px 185px;
+    width: 90%;
 
   }
   
   .line2 {
     border-bottom: 2px solid black;
-     margin: 15px 1px 0px 985px; 
-    width: 25%;
+     margin: 15px 1px 0px 185px; 
+    width: 90%;
   }
 
   
