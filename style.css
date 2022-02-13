@@ -301,18 +301,18 @@ textarea:focus {
 
    .line {
     border-top: 7px solid black;
-    margin: 1px 1px 10px 185px; 
-    position: relative;
-    width: 80%;
-  
+     margin: 5px 1px 0px 985px;
+    width: 25%;
+
   }
   
   .line2 {
     border-bottom: 2px solid black;
-     margin: 15px 1px 0px 185px; 
-    width: 80%;
+     margin: 15px 1px 0px 985px; 
+    width: 25%;
   }
 
+  
 
 input[type="radio"] {
   margin: 7px;
