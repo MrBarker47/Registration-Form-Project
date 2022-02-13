@@ -47,16 +47,18 @@ legend {
 }
 
 .background button {
-  transition-property: width 2s;
+  transition-duration: 2s;
+  transition-property: width;
 
 }
 button:hover {
   background-color: #a99cff;
+
 }
 
 .info {
   padding-bottom: 50px;
-  margin-left: 1px;
+  margin: 1px;
   box-sizing: border-box;
 }
 
@@ -245,7 +247,12 @@ textarea:focus {
     margin: 10px auto;
 
   }
-
+ 
+  button:hover {
+    background-color: #a99cff;
+    width: 400px;
+  }
+  
 
   .background {
     margin: 25px;
@@ -264,8 +271,7 @@ textarea:focus {
   }
   span {
     color: black;
-    margin: 20px;
-    padding: 210px;
+    margin-left: 165px;
     font-size: 15px;
     border: none;
   }
@@ -295,8 +301,10 @@ textarea:focus {
 
    .line {
     border-top: 7px solid black;
-    margin: 15px 1px 10px 185px; 
-   width: 80%;
+    margin: 1px 1px 10px 185px; 
+    position: relative;
+    width: 80%;
+  
   }
   
   .line2 {
