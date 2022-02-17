@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: 'Courgette', cursive
 }
 
 
@@ -46,11 +47,11 @@ legend {
   box-sizing: border-box;
 }
 
-.background button {
-  transition-duration: 2s;
+  .background button {
+  transition-duration: 5s;
   transition-property: width;
 
-}
+}  
 button:hover {
   background-color: #a99cff;
 
@@ -179,7 +180,7 @@ input[type="search"] {
   margin-bottom: 10px;
 
 }
-
+ 
 #name:focus,
 #email:focus,
 #number:focus,
@@ -188,11 +189,23 @@ input[type="search"] {
 #zip:focus {
   background-color: wheat;
   color: black;
+  transition-duration: 1ms;
+  transition-property: width;
 }
 
-input[type="tel"] {
-  width: 50%;
-  margin: 5px 125px 0px 0px;
+#name:hover,
+#email:hover,
+#number:hover,
+#address:hover,
+#City:hover,
+#zip:hover {
+  width: 200px;
+} 
+
+#zip {
+  width: 65%;
+ 
+  
 }
 
 #number {
@@ -216,7 +229,7 @@ input[type="tel"] {
 }
 
 span {
-  padding: 45px;
+  padding: 65px;
   margin-top: 200px;
   white-space: nowrap;
   font-size: 1rem;
@@ -247,6 +260,12 @@ textarea:focus {
     margin: 10px auto;
 
   }
+
+  .background button {
+    transition-duration: 1s;
+   
+  
+  } 
  
   button:hover {
     background-color: #a99cff;
@@ -351,6 +370,9 @@ input[type="radio"] {
     width: 100%;
  
   }
+
+
+
 
 
 
