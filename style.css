@@ -107,7 +107,7 @@ textarea {
   background-color: #e8e8e8;
   padding: 15px;
   text-align: end;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 5px;
   box-sizing: border-box;
 }
@@ -189,8 +189,8 @@ input[type="search"] {
 #zip:focus {
   background-color: wheat;
   color: black;
-  transition-duration: 1ms;
-  transition-property: width;
+  transition-duration: 1000ms;
+ 
 }
 
 #name:hover,
@@ -199,7 +199,7 @@ input[type="search"] {
 #address:hover,
 #City:hover,
 #zip:hover {
-  width: 200px;
+  background-color: purple;
 } 
 
 #zip {
@@ -229,7 +229,7 @@ input[type="search"] {
 }
 
 span {
-  padding: 65px;
+  padding-left: 60px;
   margin-top: 200px;
   white-space: nowrap;
   font-size: 1rem;
@@ -291,7 +291,7 @@ textarea:focus {
   span {
     color: black;
     margin-left: 145px;
-    font-size: 15px;
+    font-size: 15px; 
     border: none;
   }
 
@@ -372,7 +372,7 @@ input[type="radio"] {
   }
 
 
-
+ 
 
 
 
