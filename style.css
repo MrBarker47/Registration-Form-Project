@@ -189,7 +189,7 @@ input[type="search"] {
 #zip:focus {
   background-color: wheat;
   color: black;
-  transition-duration: 1000ms;
+  transition:  1000ms;
  
 }
 
@@ -200,6 +200,7 @@ input[type="search"] {
 #City:hover,
 #zip:hover {
   background-color: purple;
+
 } 
 
 #zip {
